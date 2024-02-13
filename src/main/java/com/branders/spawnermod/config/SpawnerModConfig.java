@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class SpawnerModConfig 
 {	
 	@Config.RangeInt(min = 0, max = 100)
-	@Config.Comment("Drop rate for Monster Eggs from all mobs (in percentage ranging from 0 - 100)")
+	@Config.Comment("Percent chance for mobs to drop their spawn egg")
 	public static int drop_rate_in_percentage = 4;
 	
 	@Mod.EventBusSubscriber(modid = SpawnerMod.MODID)

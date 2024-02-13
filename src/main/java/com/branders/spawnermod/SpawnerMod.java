@@ -24,9 +24,9 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class SpawnerMod
 {
 	/** Mod info */
-    public static final String MODID = "spawnermod";
-    public static final String NAME = "Enhanced Spawner Mod";
-    public static final String VERSION = "1.0-1.12.2";
+    public static final String MODID = "enhancedmobspawners";
+    public static final String NAME = "Enhanced Mob Spawners Unofficial";
+    public static final String VERSION = "1.1-1.12.2";
     
     /**
      * 	Register events
